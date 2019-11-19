@@ -1743,7 +1743,10 @@ class Server{
 		
 		$this->start();
 	}
-	
+
+	/**
+	 * @return AdvancedSourceInterface
+	 */
 	public function getMainInterface() {
 		return $this->mainInterface;
 	}
